@@ -13,7 +13,7 @@ torstart="no"
 ovpnstart="no"
 ovpnrefreshbeforestart="yes"
 nodogsplashstart="no"
-aptaddinstlist="tor openvpn"
+aptaddinstlist=""
 #
 snam="hotspot"
 eth_dev="eth0"
@@ -21,7 +21,7 @@ eth_dev="eth0"
 freq_filter="2"
 if [ "$freq_filter" != "5" ]; then freq_filter="2"; fi
 # if defined, automatic discovery disabled
-ch_autofind="1"
+ch_autofind="0"
 ch_dflt="11"
 # valid channels and selection prio
 ch_2GHz_ovrlap="2 3 4 5 7 8 9 10 12 13"
